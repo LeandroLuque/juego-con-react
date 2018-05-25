@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const title = 'My Minimal React Webpack Babel Setup';
+const title = 'Configuracion minima para webpack react babel';
 
 ReactDOM.render(
   <div>{title}</div>,
   document.getElementById('app')
 );
-
-module.hot.accept();
