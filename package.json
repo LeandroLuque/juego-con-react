@@ -15,12 +15,14 @@
     "babel-core": "^6.23.1",
     "babel-loader": "^7.1.2",
     "babel-preset-react": "^6.23.0",
+    "json-loader": "^0.5.7",
     "webpack": "^4.0.1",
     "webpack-cli": "^2.0.10",
     "webpack-dev-server": "^3.1.0"
   },
   "dependencies": {
     "babel-preset-env": "^1.6.1",
+    "imdb-api": "^3.1.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   }

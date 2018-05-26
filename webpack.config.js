@@ -13,6 +13,11 @@ module.exports = {
         query:{
           presets: ['es2015', 'react']
         }
+      },
+      {
+        test: /\.json$/,
+        exclude: /node_modules/,
+        loader: 'json-loader'
       }
     ]
   },
@@ -29,6 +34,11 @@ module.exports = {
   ],
   devServer: {
     contentBase: './dist',
-    hot: true
+    //hot: true
+  },
+  node: {
+    fs: 'empty',
+    net: 'empty',
+    tls: 'empty'
   }
 };
