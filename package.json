@@ -24,6 +24,7 @@
     "babel-preset-env": "^1.6.1",
     "imdb-api": "^3.1.2",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "sweetalert": "^2.1.0"
   }
 }
